@@ -1,0 +1,101 @@
+,WineName,Type,Elaborate,Body,Acidity,Code,Country,RegionName,WineryName,ABV,Rating,Grapes,Harmonize
+0,Al Poggio Chardonnay di Toscana,White,Varietal/100%,Medium-bodied,High,nan,Italy,Toscana,Castello di Ama,13.0,3.566666666666667,['Chardonnay'],nan
+1,Além do Rio Branco,White,Assemblage/Blend,Medium-bodied,High,PT,Portugal,Lisboa,nan,9.5,4.071428571428571,"['Malvasia', 'Seara Nova', 'Arinto', 'Fernão Pires']","['Pasta', 'Grilled', 'Shellfish', 'Lean Fish']"
+2,Bandol Cuvée Spéciale La Louffe,Red,Assemblage/Blend,Full-bodied,Medium,FR,France,Bandol,Domaine Tempier,14.0,4.0,"['Mourvedre', 'Grenache', 'Cinsault']","['Beef', 'Veal', 'Lamb', 'Maturated Cheese', 'Hard Cheese']"
+3,Barbera d'Alba,Red,Varietal/100%,Medium-bodied,Medium,IT,Italy,Barbera d'Alba,Filippo Gallino,15.0,3.8125,['Barbera'],"['Pasta', 'Veal', 'Pork', 'Game Meat', 'Poultry']"
+4,Bardolino Classico,Red,nan,Full-bodied,Medium,nan,Italy,Bardolino Classico,nan,12.5,2.7142857142857144,"['Corvina', 'Rondinella', 'Molinara']",nan
+5,Barolo,Red,Varietal/100%,Full-bodied,High,IT,Italy,Barolo,Francesco Scanavino,14.0,3.9285714285714284,['Nebbiolo'],"['Beef', 'Pasta', 'Lamb', 'Game Meat']"
+6,Barolo Riserva,Red,Varietal/100%,Full-bodied,High,IT,Italy,Barolo,nan,14.5,3.625,['Nebbiolo'],"['Beef', 'Pasta', 'Lamb', 'Game Meat', 'Hard Cheese']"
+7,Barrel Select Fumé Blanc,White,Varietal/100%,Medium-bodied,High,US,United States,New Mexico,Aridus,12.0,4.4375,['Sauvignon Blanc'],nan
+8,Belcaro Vin Santo del Chianti Classico,Dessert,Assemblage/Blend,Medium-bodied,High,IT,Italy,Vin Santo del Chianti Classico,nan,15.5,3.9,"['Trebbiano', 'Malvasia']",nan
+9,Black Label Nik Weis Saar Riesling,White,Varietal/100%,Medium-bodied,High,DE,Germany,Mosel,nan,11.5,3.7857142857142856,['Riesling'],"['Pork', 'Shellfish', 'Spicy Food', 'Poultry', 'Cured Meat']"
+10,Brachetto d'Acqui,Sparkling,Varietal/100%,Medium-bodied,High,IT,Italy,Brachetto d'Acqui,nan,6.0,4.666666666666667,['Brachetto'],nan
+11,Cabardès Rosé,Rosé,Assemblage/Provence Rosé Blend,Medium-bodied,High,FR,France,Cabardès,Château Jouclary,13.0,3.375,"['Cabernet Franc', 'Grenache', 'Cinsault', 'Syrah/Shiraz']","['Appetizer', 'Snack', 'Pasta', 'Chicken', 'Vegetarian']"
+12,Cabernet Franc,Red,Varietal/100%,Medium-bodied,Medium,CL,Chile,Maule Valley,nan,14.3,3.4,['Cabernet Franc'],nan
+13,Cabernet Sauvignon,Red,Varietal/100%,Very full-bodied,Medium,US,United States,Mount Veeder,Yates Family Vineyard,14.699999999999998,3.8333333333333335,['Cabernet Sauvignon'],"['Beef', 'Lamb', 'Game Meat', 'Maturated Cheese', 'Hard Cheese']"
+14,Cabernet Sauvignon-Shiraz,Red,nan,Very full-bodied,Medium,AU,Australia,South Australia,Oxford Landing,13.5,3.275,"['Cabernet Sauvignon', 'Syrah/Shiraz']",nan
+15,Calda Bordaleza Tinto,Red,Assemblage/Bordeaux Red Blend,Full-bodied,Medium,PT,Portugal,Bairrada,Campolargo,14.0,4.071428571428571,"['Cabernet Sauvignon', 'Merlot', 'Petit Verdot']",nan
+16,Cerequio Barolo,Red,Varietal/100%,Full-bodied,High,IT,Italy,Barolo,Saglietti Flavio,14.0,3.9285714285714284,['Nebbiolo'],"['Beef', 'Pasta', 'Lamb', 'Game Meat']"
+17,Chablis 1er Cru 'Montmains',White,Varietal/100%,nan,High,nan,France,Chablis 1er Cru 'Montmains',nan,12.5,3.1875,['Chardonnay'],nan
+18,Château Chemin Royal Moulis-en-Médoc,Red,Assemblage/Bordeaux Red Blend,Full-bodied,High,FR,France,Moulis-en-Médoc,nan,13.8,3.05,"['Merlot', 'Cabernet Sauvignon']","['Beef', 'Lamb', 'Game Meat', 'Poultry']"
+19,Cinsault-Grenache Rosé,Rosé,Assemblage/Blend,Medium-bodied,High,FR,France,Vin de France,La Francette,12.0,2.888888888888889,"['Grenache', 'Cinsault']",nan
+20,Coteaux d'Aix-en-Provence Rosé,Rosé,Assemblage/Provence Rosé Blend,nan,Medium,FR,France,Provence,Moonlight & Roses,13.0,3.4285714285714284,"['Syrah/Shiraz', 'Cinsault', 'Grenache']","['Seafood', 'Shellfish', 'Vegetarian', 'Poultry', 'Tomato Dishes']"
+21,Coyam,Red,Assemblage/Blend,Full-bodied,High,nan,Chile,Colchagua Valley,Emiliana,14.0,4.2105263157894735,"['Syrah/Shiraz', 'Petit Verdot', 'Carmenère', 'Garnacha', 'Cabernet Sauvignon', 'Carignan/Cariñena', 'Malbec', 'Tempranillo', 'Mourvedre']","['Beef', 'Lamb', 'Pork', 'Game Meat', 'Maturated Cheese', 'Hard Cheese']"
+22,Coyote Canyon Reserve Syrah,Red,Varietal/100%,Full-bodied,Medium,US,United States,Horse Heaven Hills,nan,15.5,4.090909090909091,['Syrah/Shiraz'],"['Beef', 'Lamb', 'Game Meat', 'Poultry']"
+23,Cuvée Alexander Rose de Pinot Extra Brut,Sparkling,nan,Medium-bodied,High,RU,Russia,Taman Peninsula (Таманский полуостров),Aristov,12.5,3.1,"['Pinot Noir', 'Cabernet Sauvignon']","['Appetizer', 'Snack', 'Shellfish', 'Rich Fish']"
+24,Dona Antonia Porto Reserva Tawny,Dessert/Port,nan,Very full-bodied,High,nan,Portugal,Porto,Porto Ferreira,20.0,3.8095238095238093,"['Touriga Nacional', 'Touriga Franca', 'Tinta Barroca', 'Tinta Amarela']",nan
+25,Dry Creek Valley Zinfandel,Dessert,nan,nan,Medium,nan,United States,Dry Creek Valley,Dashe,14.2,4.066666666666666,['Zinfandel'],"['Beef', 'Lamb', 'Poultry']"
+26,Dulcis Moscato d'Asti,Dessert,Varietal/100%,Light-bodied,Medium,IT,Italy,Moscato d'Asti,nan,5.5,3.7,['Muscat/Moscato'],nan
+27,El Espiritu de Cachapoal Brut,Sparkling,Varietal/100%,nan,High,nan,Chile,Cachapoal Valley,Château Los Boldos,13.0,3.9375,['Chardonnay'],"['Grilled', 'Salad', 'Chicken', 'Seafood', 'Shellfish']"
+28,Estate Pinot Noir,Red,Varietal/100%,Medium-bodied,Medium,US,United States,Willamette Valley,Illahe,13.5,4.261904761904762,['Pinot Noir'],"['Beef', 'Veal', 'Game Meat', 'Poultry']"
+29,Extra Brut Cuvée Spéciale Baron B,Sparkling,Assemblage/Blend,Medium-bodied,Medium,AR,Argentina,Mendoza,CHANDON Argentina,12.5,3.611111111111111,"['Chardonnay', 'Pinot Noir']","['Pork', 'Fish', 'Poultry', 'Vegetarian']"
+30,Felix Lemberger Trocken,Red,Varietal/100%,Medium-bodied,High,DE,Germany,Württemberg,Wachtstetter,13.0,3.8333333333333335,['Lemberger'],"['Beef', 'Veal', 'Lamb', 'Barbecue']"
+31,Fiano del Salento,White,Varietal/100%,nan,High,IT,Italy,Salento,Mottura,12.5,3.0833333333333335,['Fiano'],"['Seafood', 'Vegetarian', 'Appetizer', 'Snack']"
+32,Fine Ruby Port,Dessert/Port,nan,Very full-bodied,Medium,nan,Portugal,Porto,Sandeman,19.5,3.58,"['Tinta Amarela', 'Tinta Barroca', 'Touriga Franca', 'Tinta Roriz', 'Tinto Cão']",nan
+33,Fino Eléctrico 3 Fases,Dessert,Varietal/100%,Full-bodied,Medium,ES,Spain,Montilla-Moriles,nan,15.0,3.75,['Pedro Ximenez'],nan
+34,Fior di Vigna Dolce Rosso,Dessert,Varietal/100%,Full-bodied,Low,nan,Italy,Langhe,Vallebelbo,4.0,3.0,['Brachetto'],nan
+35,Fleurie La Madone,Red,Varietal/100%,Light-bodied,High,FR,France,Fleurie,Albert Bichot,13.0,3.5833333333333335,['Gamay Noir'],"['Pasta', 'Beef', 'Veal', 'Lamb', 'Maturated Cheese']"
+36,Gabbiano Pinot Grigio,White,nan,nan,Medium,nan,Italy,Delle Venezie,Cavaliere d'Oro,12.0,3.4285714285714284,"['Pinot Grigio', 'Chardonnay']","['Appetizer', 'Shellfish', 'Pasta', 'Vegetarian', 'Mushrooms']"
+37,Gran Malbec,Red,Varietal/100%,nan,Medium,AR,Argentina,Lujan de Cuyo,De Angeles Viña 1924,15.0,4.157894736842105,['Malbec'],"['Beef', 'Lamb', 'Poultry']"
+38,Haven Pinot Noir,Red,Varietal/100%,Medium-bodied,Medium,AU,Australia,Mornington Peninsula,Kooyong,13.5,4.5,['Pinot Noir'],"['Beef', 'Veal', 'Game Meat', 'Poultry']"
+39,Kallisto,White,Assemblage/Blend,nan,High,GR,Greece,Ilia,Mercouri Estate,13.0,3.5714285714285716,"['Assyrtiko', 'Robola']","['Shellfish', 'Lean Fish', 'Poultry', 'Blue Cheese']"
+40,Kormilitsa Red,Red,Assemblage/Blend,Full-bodied,Medium,GR,Greece,Chalkidiki,Tsantali,14.1,4.0625,"['Cabernet Sauvignon', 'Limnio']",nan
+41,La Primavera in Rosa Rosé Italia,Rosé,Assemblage/Blend,Medium-bodied,Medium,IT,Italy,Vino d'Italia,Grande Alberone,13.0,3.6666666666666665,"['Negroamaro', 'Merlot', 'Refosco']","['Aperitif', 'Beef', 'Pasta', 'Seafood', 'Shellfish', 'Salad']"
+42,La Tinaja de Aranzazu,White,Varietal/100%,Medium-bodied,Medium,ES,Spain,Rías Baixas,Nanclares y Prieto,13.0,4.0,['Albariño'],"['Appetizer', 'Snack', 'Vegetarian', 'Pasta', 'Shellfish', 'Lean Fish']"
+43,Lacrau Colheita Field Blend,Red,Assemblage/Portuguese Red Blend,Full-bodied,Medium,nan,Portugal,Douro,nan,13.5,3.857142857142857,"['Touriga Franca', 'Touriga Nacional', 'Tinta Roriz', 'Tinta Barroca']","['Beef', 'Pasta', 'Lamb', 'Game Meat']"
+44,Langhe Chardonnay,White,Varietal/100%,Medium-bodied,Medium,IT,Italy,Langhe,Mustela,13.0,3.7857142857142856,['Chardonnay'],"['Appetizer', 'Pizza', 'Lean Fish', 'Maturated Cheese', 'Cured Meat']"
+45,Langhe Nebbiolo,Red,nan,Full-bodied,High,IT,Italy,Langhe,Cascina Ballarin,14.0,3.5,['Nebbiolo'],"['Beef', 'Lamb', 'Game Meat', 'Poultry']"
+46,Las Mulas Reserva Sauvignon Blanc,White,Varietal/100%,Medium-bodied,High,CL,Chile,Central Valley (CL),Miguel Torres Chile,13.0,3.2222222222222223,['Sauvignon Blanc'],"['Shellfish', 'Vegetarian', 'Goat Cheese']"
+47,Lauréne Pinot Noir,Red,Varietal/100%,Medium-bodied,High,nan,United States,Dundee Hills,Domaine Drouhin,14.0,4.875,['Pinot Noir'],"['Beef', 'Veal', 'Game Meat', 'Poultry']"
+48,Les Dessous des Dentelles,Red,Assemblage/Rhône Red Blend,nan,Medium,FR,France,Gigondas,Château La Croix des Pins,14.3,3.8,"['Grenache', 'Mourvedre', 'Syrah/Shiraz']","['Beef', 'Lamb', 'Game Meat']"
+49,Les Fuées Chambolle-Musigny 1er Cru,Red,Varietal/100%,Full-bodied,High,FR,France,Chambolle-Musigny,Domaine Faiveley,13.0,3.9166666666666665,['Pinot Noir'],"['Beef', 'Veal', 'Game Meat', 'Poultry']"
+50,Los Cardos Malbec,Red,Varietal/100%,nan,High,AR,Argentina,Mendoza,Doña Paula,14.5,3.4285714285714284,['Malbec'],"['Beef', 'Lamb', 'Poultry', 'French Fries']"
+51,Lou Mansengou,Dessert,Varietal/100%,Medium-bodied,High,nan,France,Jurançon,Domaine Larroudé,12.0,3.4285714285714284,['Petit Manseng'],"['Rich Fish', 'Fruit Dessert', 'Vegetarian', 'Poultry', 'Soft Cheese']"
+52,Manzoni Moscato Spumante,Sparkling,nan,Light-bodied,High,IT,Italy,Veneto,Bonotto delle Tezze,11.5,4.083333333333333,"['Raboso Piave', 'Muscat of Hamburg']","['Appetizer', 'Snack', 'Lean Fish', 'Fruit']"
+53,Marc d'Alsace Riesling,Dessert,nan,Medium-bodied,Medium,FR,France,Alsace,nan,48.0,3.9285714285714284,['Riesling'],"['Pork', 'Rich Fish', 'Spicy Food', 'Vegetarian', 'Cured Meat']"
+54,Maria Izabel Rosé,Rosé,Assemblage/Blend,Medium-bodied,High,PT,Portugal,Douro,Quinta Maria Izabel,13.0,4.0,"['Tinta Roriz', 'Tinta Francisca', 'Touriga Nacional']","['Beef', 'Tomato Dishes', 'Maturated Cheese', 'Hard Cheese']"
+55,Maré Alta,White,Assemblage/Blend,Very light-bodied,High,PT,Portugal,Vinho Verde,nan,10.0,4.277777777777778,"['Loureiro', 'Alvarinho', 'Arinto']","['Fish', 'Shellfish', 'Vegetarian', 'Appetizer', 'Snack']"
+56,Merlot Reserve Trocken,Red,Varietal/100%,nan,Medium,DE,Germany,Württemberg,nan,13.5,4.25,['Merlot'],"['Pork', 'Beef', 'Game Meat', 'Maturated Cheese']"
+57,Meursault 1er Cru 'La Pièce Sous Le Bois',White,nan,Full-bodied,Medium,FR,France,Meursault 1er Cru 'La pièce sous le Bois',Demessey,13.5,3.857142857142857,['Chardonnay'],"['Pasta', 'Chicken', 'Rich Fish', 'Shellfish', 'Soft Cheese']"
+58,Müller Thurgau Alto Adige,White,nan,Medium-bodied,Medium,IT,Italy,Südtirol-Alto Adige,Kettmeir,13.0,3.8461538461538463,['Müller-Thurgau'],"['Appetizer', 'Snack', 'Risotto', 'Seafood', 'Vegetarian']"
+59,Narin Barbaresco,Red,Varietal/100%,Full-bodied,High,IT,Italy,Barbaresco,Carlo Giacosa,14.5,4.071428571428571,['Nebbiolo'],nan
+60,Nicolon Barbera d'Alba,Red,nan,Medium-bodied,High,IT,Italy,Barbera d'Alba,nan,14.5,3.625,['Barbera'],"['Pasta', 'Veal', 'Pork', 'Game Meat', 'Poultry']"
+61,Nuits-St-Georges Les Plateaux,Red,nan,Medium-bodied,High,FR,France,Nuits-Saint-Georges,Mongeard-Mugneret,13.0,4.071428571428571,['Pinot Noir'],"['Beef', 'Veal', 'Game Meat', 'Poultry']"
+62,Old Vine Zinfandel,Red,Varietal/100%,nan,Medium,US,United States,Lodi,Maggio Family Vineyards,13.6,3.6666666666666665,['Zinfandel'],"['Beef', 'Veal', 'Lamb', 'Poultry']"
+63,Old Vine Zinfandel,Red,nan,Very full-bodied,Medium,nan,United States,Napa Valley,Big Smooth,15.5,3.888888888888889,"['Zinfandel', 'Petite Sirah', 'Mourvedre', 'Merlot']",nan
+64,Origem Merlot,Red,Varietal/100%,Full-bodied,Medium,BR,Brazil,Vale dos Vinhedos,Casa Valduga,13.0,4.119047619047619,['Merlot'],"['Beef', 'Lamb', 'Veal', 'Grilled', 'Pizza', 'Pasta']"
+65,Pedroni Vineyard Cabernet Franc,Red,Varietal/100%,Medium-bodied,Medium,US,United States,Sonoma County,Amphora,14.6,3.75,['Cabernet Franc'],"['Beef', 'Veal', 'Game Meat', 'Chicken', 'Maturated Cheese']"
+66,Pessac-Léognan,Red,nan,Full-bodied,High,FR,France,Pessac-Léognan,Château Pontet-Caillou,13.0,3.7222222222222223,"['Merlot', 'Cabernet Sauvignon', 'Petit Verdot']","['Beef', 'Veal', 'Lamb', 'Game Meat', 'Poultry']"
+67,Pinot Noir,Red,Varietal/100%,Medium-bodied,High,nan,United States,Willamette Valley,King Estate,13.5,3.75,['Pinot Noir'],"['Beef', 'Veal', 'Game Meat', 'Chicken']"
+68,Pinot Noir,Red,Varietal/100%,Medium-bodied,Medium,NZ,New Zealand,Marlborough,Matua,12.5,3.409090909090909,['Pinot Noir'],"['Beef', 'Veal', 'Game Meat', 'Poultry']"
+69,Pinot Noir,Red,Varietal/100%,nan,Medium,US,United States,Lodi,nan,14.1,3.7222222222222223,['Pinot Noir'],"['Beef', 'Veal', 'Game Meat', 'Chicken']"
+70,Pommard Premier Cru 'Grand Clos des Épenots',Red,Varietal/100%,Medium-bodied,Medium,FR,France,Pommard,Domaine de Courcel,13.0,4.023809523809524,['Pinot Noir'],"['Beef', 'Veal', 'Game Meat', 'Poultry']"
+71,Porto Colheita,Dessert/Port,Assemblage/Port Blend,Very full-bodied,Medium,PT,Portugal,Porto,Quinta do Portal,20.0,3.8333333333333335,"['Touriga Nacional', 'Touriga Franca', 'Tinta Roriz']","['Sweet Dessert', 'Cake', 'Fruit', 'Soft Cheese']"
+72,Premiere Napa Valley Cabernet Sauvignon,Red,Varietal/>75%,Very full-bodied,High,US,United States,Mount Veeder,nan,14.800000000000002,4.5,"['Cabernet Sauvignon', 'Malbec', 'Petit Verdot']",nan
+73,Primata Touriga Nacional,Red,Assemblage/Portuguese Red Blend,Full-bodied,Medium,PT,Portugal,Douro,Niepoort,11.2,3.5714285714285716,"['Tinta Amarela', 'Touriga Franca', 'Tinta Roriz', 'Tinto Cão', 'Touriga Nacional']",nan
+74,Private Reserve Riesling,White,Varietal/100%,Light-bodied,High,CA,Canada,Niagara Peninsula,nan,11.0,3.5,['Riesling'],nan
+75,Pátria Alentejo Selection Reserva,Red,Assemblage/Blend,Full-bodied,Medium,PT,Portugal,Alentejo,Carmim,14.5,4.3,"['Alicante Bouschet', 'Aragonez', 'Trincadeira']","['Beef', 'Lamb', 'Veal', 'Game Meat', 'Maturated Cheese']"
+76,Rare Cream Sherry Superior (Solera Reserva),Dessert/Port,Varietal/>75%,Full-bodied,High,nan,Spain,Cream Sherry,Lustau,20.0,3.9166666666666665,"['Palomino', 'Pedro Ximenez']","['Appetizer', 'Snack', 'Fruit Dessert', 'Maturated Cheese', 'Hard Cheese']"
+77,Regional Tinto,Red,nan,Full-bodied,Medium,PT,Portugal,Lisboa,Mundus,13.0,3.8,"['Aragonez', 'Syrah/Shiraz']","['Beef', 'Lamb', 'Game Meat', 'Poultry']"
+78,Reserva Cabernet Franc,Red,nan,nan,Medium,UY,Uruguay,Maldonado,Bodega Garzón,14.0,4.0,['Cabernet Franc'],"['Beef', 'Pork', 'Game Meat', 'Poultry', 'Soft Cheese']"
+79,Reserva Chardonnay,White,Varietal/100%,Medium-bodied,Medium,BR,Brazil,Serra Gaúcha,Aurora,13.0,3.3181818181818183,['Chardonnay'],"['Rich Fish', 'Seafood', 'Risotto', 'Poultry', 'Vegetarian']"
+80,Ricarico Prestige Cuvée,Red,Assemblage/Blend,Full-bodied,Medium,IT,Italy,Puglia,Giordano,14.5,3.75,"['Primitivo', 'Negroamaro']","['Beef', 'Pasta', 'Lamb', 'Game Meat', 'Grilled', 'Maturated Cheese']"
+81,Riserva Prêt-A-Porter,Red,Assemblage/Valpolicella Red Blend,Very full-bodied,Medium,IT,Italy,Amarone della Valpolicella,Bottega,15.5,4.333333333333333,"['Corvina', 'Corvinone', 'Rondinella', 'Molinara']",nan
+82,Rocky Gully Cabernets,Red,Assemblage/Bordeaux Red Blend,nan,High,AU,Australia,Frankland River,Frankland Estate,14.5,4.0,"['Cabernet Sauvignon', 'Cabernet Franc', 'Merlot']","['Beef', 'Pasta', 'Lamb', 'Game Meat']"
+83,Rosato,Rosé,Assemblage/Blend,Light-bodied,Medium,IT,Italy,Piemonte,Enzo Bartoli,12.0,3.6875,"['Barbera', 'Dolcetto']","['Fish', 'Tomato Dishes', 'Poultry', 'Mushrooms', 'Blue Cheese']"
+84,Rosé of Pinot Noir,Rosé,Varietal/100%,Medium-bodied,High,US,United States,Willamette Valley,nan,13.4,3.2857142857142856,['Pinot Noir'],"['Salad', 'Rich Fish', 'Shellfish', 'Poultry', 'Goat Cheese']"
+85,Sancerre Les Baronnes Rosé,Rosé,Varietal/100%,Medium-bodied,Medium,FR,France,Sancerre,Henri Bourgeois,13.5,3.6875,['Pinot Noir'],"['Aperitif', 'Snack', 'Salad', 'Vegetarian']"
+86,Santenay Rouge,Red,nan,Light-bodied,High,FR,France,Santenay,Louis Latour,13.0,3.772727272727273,['Pinot Noir'],"['Beef', 'Veal', 'Game Meat', 'Poultry']"
+87,Sauternes (Premier Grand Cru Classé),Dessert,Assemblage/Blend,Full-bodied,High,FR,France,Sauternes,Château Suduiraut,13.5,4.136363636363637,"['Sémillon', 'Sauvignon Blanc']",nan
+88,Select Rosé Brut,Sparkling,Assemblage/Blend,Medium-bodied,High,RU,Russia,Taman Peninsula (Таманский полуостров),Château Tamagne,12.5,3.3,"['Pinot Blanc', 'Bianca', 'Muscat/Moscato', 'Saperavi', 'Müller-Thurgau']","['Shellfish', 'Appetizer', 'Snack', 'Lean Fish']"
+89,Solatio Moscato d'Asti,White,Varietal/100%,Light-bodied,Medium,IT,Italy,Asti,Roberto Sarotto,5.0,3.9,['Muscat/Moscato'],"['Appetizer', 'Fruit Dessert', 'Soft Cheese']"
+90,Terras de Basto Tinto,Red,Assemblage/Blend,Full-bodied,Medium,PT,Portugal,Vinho Verde,nan,10.5,3.375,"['Azal Tinto', 'Vinhão', 'Padeiro']","['Beef', 'Lamb', 'Game Meat', 'Poultry']"
+91,Terras de Felgueiras Espumante de Vinho Verde Seco Branco,Sparkling,nan,Medium-bodied,Medium,PT,Portugal,Vinho Verde,Cooperativa Agricola de Felgueiras,11.5,3.6,"['Loureiro', 'Arinto', 'Trajadura', 'Azal Branco']","['Appetizer', 'Rich Fish', 'Shellfish', 'Soft Cheese']"
+92,The Falcon Pinot Gris,White,Varietal/100%,nan,High,NZ,New Zealand,Marlborough,Lake Chalice,13.0,3.0833333333333335,['Pinot Gris'],"['Pork', 'Spicy Food', 'Mushrooms', 'Vegetarian']"
+93,The Visionary Cabernet Sauvignon,Red,Varietal/100%,Full-bodied,Medium,AU,Australia,Clare Valley,Taylors/Wakefield,14.5,4.75,['Cabernet Sauvignon'],"['Beef', 'Veal', 'Lamb', 'Poultry']"
+94,Torgaio Toscana,Red,nan,nan,Medium,nan,Italy,Toscana,Ruffino,13.0,3.7142857142857144,"['Sangiovese', 'Merlot', 'Alicante Bouschet', 'Petit Verdot']","['Beef', 'Lamb', 'Veal', 'Poultry', 'Cured Meat']"
+95,Unwooded Chardonnay,White,Varietal/100%,Medium-bodied,Medium,nan,South Africa,Western Cape,Boplaas,13.3,2.9285714285714284,['Chardonnay'],"['Pork', 'Poultry', 'Vegetarian', 'Soft Cheese']"
+96,Vieille Vigne Gevrey-Chambertin,Red,nan,nan,Medium,FR,France,Gevrey-Chambertin,nan,13.0,4.363636363636363,['Pinot Noir'],nan
+97,White Reserve Porto,Dessert/Port,Assemblage/Blend,nan,Medium,nan,Portugal,Douro,nan,19.5,3.5714285714285716,"['Rabigato', 'Viosinho', 'Malvasia Fina', 'Côdega de Larinho']","['Aperitif', 'Sweet Dessert', 'Blue Cheese']"
+98,Zinfandel,Red,Varietal/100%,Full-bodied,Medium,IT,Italy,Puglia,Masseria Trajone,14.0,3.6,['Zinfandel'],nan
+99,Zweigelt,Red,Varietal/100%,Medium-bodied,High,nan,Austria,Niederösterreich,Schloss Gobelsburg,12.5,3.642857142857143,['Zweigelt'],"['Beef', 'Lamb', 'Game Meat', 'Pork']"
