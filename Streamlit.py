@@ -65,7 +65,7 @@ wine_details= pd.read_csv('Data/XWines_Test_100_wines.csv')
 
 
 # Set Streamlit app config for a wider layout and light theme
-st.set_page_config(layout="wide", page_title="Wine Recommendation App", initial_sidebar_state="expanded", theme="dark")
+st.set_page_config(layout="wide", page_title="Wine Recommendation App", initial_sidebar_state="expanded")
 
 # Set background image using HTML and CSS
 def set_background(image_path):
