@@ -1,5 +1,7 @@
 # Worldwide_Wine_Recomendation
 
+### Link to streamlit app: https://worldwidewinerecomendation.streamlit.app/
+
 ### Source:
 https://github.com/rogerioxavier/X-Wines/tree/main
 X-Wines is a world wine dataset with 5-stars user ratings for recommender systems, machine learning, and other research purpose.
