@@ -1,6 +1,7 @@
 # Worldwide_Wine_Recomendation
 
-### Link to streamlit app: https://worldwidewinerecomendation.streamlit.app/
+### Link to streamlit app:
+https://worldwidewinerecomendation.streamlit.app/
 
 ### Source:
 https://github.com/rogerioxavier/X-Wines/tree/main
