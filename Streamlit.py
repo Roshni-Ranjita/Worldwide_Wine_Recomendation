@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import joblib
 import os
 
+# Recomend 5 wines based on selected wine
 def recommend_wines_kmeans(X,wine_name, num_recommendations=5):
     wine_index = kmeans_data[kmeans_data['Winename'] == wine_name].index[0]
     cluster_labels = kmeans_model.predict(X)
@@ -20,11 +21,10 @@ def recommend_wines_kmeans(X,wine_name, num_recommendations=5):
     recommended_wines = cluster_wines['Winename'].head(num_recommendations)
     return recommended_wines.tolist()
 
-
+# Display the wine name along with wine details 
 def display_wine(wine_details, selected_wine):
     if not wine_details[wine_details['WineName'] == selected_wine].empty:
         wine_info = wine_details[wine_details['WineName'] == selected_wine].iloc[0]
-        # Use Streamlit columns for layout
         col1, col2 = st.columns([2, 4])  # Adjust column widths if necessary
         
         with col2:
@@ -265,8 +265,8 @@ elif options == "EDA":
     """
     )
 
-    # Ensure the necessary columns are present
-    required_columns = ['Country', 'WineName', 'Rating']  # Adjust as per the actual column names in your dataset
+    
+    required_columns = ['Country', 'WineName', 'Rating']  
 
     # Aggregate data: Calculate the average rating and compile a list of wines for each country
     country_data = df_exp.groupby('Country').agg(
@@ -287,7 +287,7 @@ elif options == "EDA":
             hover_name='Country',
             hover_data={
                 'Avg_Rating': True,
-                'Wine_List': True  # Correct key to match the aggregated column
+                'Wine_List': True  
             },
             #title='World Map of Wine Ratings',
             color_continuous_scale='reds'
@@ -297,6 +297,13 @@ elif options == "EDA":
         st.plotly_chart(fig)
         st.markdown("""#### Mutual Information between various categorical columns:""")
         st.image("pics/EDAs/Mutual_Information.png", caption="Mutual Informtion", use_column_width=True)
+        st.markdown("""
+        ##### Insights from the Mutual Information Plot
+
+        - **WineName** shows a strong connection with **RegionName**, **Code**, and **Country**, indicating that wine names are heavily influenced by regional and country-specific factors.  
+        - **Wine characteristics**, such as **Body** and **Type**, exhibit moderate relationships with **RegionName**, suggesting that regional factors play a significant role in shaping these attributes.  
+        - **Acidity** and **Rating** have an almost negligible relationship, implying that acidity has minimal influence on wine ratings.
+        """)
 
         st.markdown("""#### Data Distribution:""")
         # Define tabs
@@ -305,10 +312,12 @@ elif options == "EDA":
         # Type of wine
         with tabs[0]:
            st.image("pics/EDAs/Distribution/Type.png", caption="Type of wine", use_column_width=True)
+           st.markdown("Conclusion : Red wine is the most popular among all types of wine")
 
         # Country of Origin
         with tabs[1]:
             st.image("pics/EDAs/Distribution/Country.png", caption="Country of Origin", use_column_width=True)
+            st.markdown("Conclusion : Most of the wine are from France, Italy US and Portugal ")
 
         # Region of Origin
         with tabs[2]:
@@ -317,6 +326,7 @@ elif options == "EDA":
         # Acidity Level
         with tabs[3]:
             st.image("pics/EDAs/Distribution/Acidity.png", caption="Acidity Level", use_column_width=True)
+            st.markdown("Conclusion : Most wines have a medium level of acidity ")
 
         # Code
         with tabs[4]:
@@ -325,10 +335,12 @@ elif options == "EDA":
         # Alcohol Level
         with tabs[5]:
             st.image("pics/EDAs/Distribution/ABV.png", caption="Alcohol Level", use_column_width=True)
+            st.markdown("Conclusion : Alcohol level of wine mostly lies between 10 to 20 percent ")
 
         # Rating
         with tabs[6]:
             st.image("pics/EDAs/Distribution/Rating.png", caption="Rating", use_column_width=True)
+            st.markdown("Most of the rating lies between 3 to 4")
 
         
         
@@ -339,18 +351,42 @@ elif options == "EDA":
         # Type of wine
         with tabs[0]:
            st.image("pics/EDAs/Box_Plot/Type.png", caption="Type of wine", use_column_width=True)
+           st.markdown("""The boxplot shows the distribution of ratings for different wine types. 
+                       Most wine types have a median rating between 3.5 and 4.0, indicating generally high ratings. 
+                       The variability in ratings is similar for most types, but White and Rosé wines show slightly more variation. 
+                       Some outliers, especially with low ratings, are present in all categories, suggesting a few wines were rated significantly lower than the rest. 
+                       Overall, the ratings are concentrated around the higher end, with some differences in consistency across wine types.""")
 
         # Country of Origin
         with tabs[1]:
             st.image("pics/EDAs/Box_Plot/Country.png", caption="Country of Origin", use_column_width=True)
+            st.markdown("""The boxplot shows the distribution of wine ratings by country. 
+                        Most countries have median ratings between 3.5 and 4.0, indicating consistently good-quality wines across regions. 
+                        Countries like Portugal, France, and New Zealand show higher medians and relatively narrower interquartile ranges, 
+                        suggesting consistently high ratings with less variability. On the other hand, countries like South Africa and 
+                        Canada exhibit broader ranges, indicating greater variability in wine quality. Outliers are present in most countries, 
+                        representing a mix of exceptionally low or high-rated wines. Overall, while ratings are generally positive, 
+                        the variability in wine quality differs significantly across countries.""")
 
         # Region of Origin
         with tabs[2]:
             st.image("pics/EDAs/Box_Plot/RegionName.png", caption="Region of Origin", use_column_width=True)
+            st.markdown("""The boxplot shows wine ratings across different regions. Regions like Vale dos Vinhedos and Sauternes 
+                        have high median ratings and relatively narrow interquartile ranges, indicating consistent and high-quality wines. 
+                        In contrast, regions like Serra Gaúcha and Langhe exhibit wider ranges and lower medians, suggesting greater variability 
+                        in wine quality. Some regions, such as Langhe and Mendoza, have noticeable outliers with very low ratings, reflecting 
+                        occasional poor-quality wines. Overall, while certain regions demonstrate consistently high-quality ratings, others 
+                        show a wider spectrum of wine quality, with some outliers significantly affecting their overall distribution.""")
         
         # Acidity Level
         with tabs[3]:
             st.image("pics/EDAs/Box_Plot/Acidity.png", caption="Acidity Level", use_column_width=True)
+            st.markdown(""" The boxplot illustrates wine ratings across different acidity levels. 
+                        Wines with medium and high acidity tend to receive higher ratings compared to those with low acidity. 
+                        The variability in ratings is similar across all acidity levels, indicating consistent quality within each
+                        category. However, some wines, particularly those with medium and high acidity, have outliers with 
+                        significantly lower ratings, suggesting a few underperforming wines. Overall, ratings are predominantly 
+                        concentrated at the higher end, highlighting a general preference for wines with moderate to high acidity.""")
 
         # Code
         with tabs[4]:
