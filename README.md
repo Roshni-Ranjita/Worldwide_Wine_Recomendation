@@ -8,6 +8,9 @@ https://github.com/rogerioxavier/X-Wines/tree/main
 X-Wines is a world wine dataset with 5-stars user ratings for recommender systems, machine learning, and other research purpose.
 It is published under free license for wider use.
 
+### AI Citation
+This project utilized OpenAI's GPT-4 model to improve code quality, enhance sentence structure, and obtain suggestions for app optimization and user experience improvements.
+
 ---
 
 ### What kind of analysis does the app provide?
