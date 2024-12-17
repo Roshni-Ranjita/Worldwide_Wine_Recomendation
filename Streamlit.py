@@ -221,15 +221,15 @@ elif options == "IDA":
     if option == "XWines_Test_100_wines":
         st.markdown("##### **XWines_Test_100_wines**")
         st.table(XWines_Test_100_wines)
-        st.image("pics/Heatmaps/XWines_Test_100_wines.png", caption="Heatmap of Missing Data", use_column_width=True)
+        st.image("pics/Heatmaps/XWines_Test_100_wines.png", caption="Heatmap of Missing Data", use_container_width=True)
     elif option == "XWines_Test_1K_ratings":
         st.markdown("##### **XWines_Test_1K_ratings**")
         st.table(XWines_Test_1K_ratings)
-        st.image("pics/Heatmaps/XWines_Test_1K_ratings.png", caption="Heatmap of Missing Data", use_column_width=True)
+        st.image("pics/Heatmaps/XWines_Test_1K_ratings.png", caption="Heatmap of Missing Data", use_container_width=True)
     elif option == "Key_map":
         st.markdown("##### **Key_map**")
         st.table(Key_map)
-        st.image("pics/Heatmaps/Key_map.png", caption="Heatmap of Missing Data", use_column_width=True)
+        st.image("pics/Heatmaps/Key_map.png", caption="Heatmap of Missing Data", use_container_width=True)
     
     st.markdown(""" 
                 ### Data Cleaning and Merging
@@ -239,9 +239,9 @@ elif options == "IDA":
     # Set up two columns for side-by-side heatmaps
     col1, col2 = st.columns(2)
     with col1:
-        st.image("pics/Heatmaps/XWines_Test_100_wines_imputed.png", caption="KNN Imputed XWines_Test_100_wines", use_column_width=True)
+        st.image("pics/Heatmaps/XWines_Test_100_wines_imputed.png", caption="KNN Imputed XWines_Test_100_wines", use_container_width=True)
     with col2:
-        st.image("pics/Heatmaps/Key_map_imputed.png", caption="Null Dropped Key_map", use_column_width=True)
+        st.image("pics/Heatmaps/Key_map_imputed.png", caption="Null Dropped Key_map", use_container_width=True)
 
     st.markdown("""
     The following data was merged using the WineID and the Rating ID \n
@@ -296,7 +296,7 @@ elif options == "EDA":
         # Show the interactive map
         st.plotly_chart(fig)
         st.markdown("""#### Mutual Information between various categorical columns:""")
-        st.image("pics/EDAs/Mutual_Information.png", caption="Mutual Informtion", use_column_width=True)
+        st.image("pics/EDAs/Mutual_Information.png", caption="Mutual Informtion", use_container_width=True)
         st.markdown("""
         ##### Insights from the Mutual Information Plot
 
@@ -311,35 +311,35 @@ elif options == "EDA":
 
         # Type of wine
         with tabs[0]:
-           st.image("pics/EDAs/Distribution/Type.png", caption="Type of wine", use_column_width=True)
+           st.image("pics/EDAs/Distribution/Type.png", caption="Type of wine", use_container_width=True)
            st.markdown("Conclusion : Red wine is the most popular among all types of wine")
 
         # Country of Origin
         with tabs[1]:
-            st.image("pics/EDAs/Distribution/Country.png", caption="Country of Origin", use_column_width=True)
+            st.image("pics/EDAs/Distribution/Country.png", caption="Country of Origin", use_container_width=True)
             st.markdown("Conclusion : Most of the wine are from France, Italy US and Portugal ")
 
         # Region of Origin
         with tabs[2]:
-            st.image("pics/EDAs/Distribution/RegionName.png", caption="Region of Origin", use_column_width=True)
+            st.image("pics/EDAs/Distribution/RegionName.png", caption="Region of Origin", use_container_width=True)
         
         # Acidity Level
         with tabs[3]:
-            st.image("pics/EDAs/Distribution/Acidity.png", caption="Acidity Level", use_column_width=True)
+            st.image("pics/EDAs/Distribution/Acidity.png", caption="Acidity Level", use_container_width=True)
             st.markdown("Conclusion : Most wines have a medium level of acidity ")
 
         # Code
         with tabs[4]:
-            st.image("pics/EDAs/Distribution/Code.png", caption="Code", use_column_width=True)
+            st.image("pics/EDAs/Distribution/Code.png", caption="Code", use_container_width=True)
 
         # Alcohol Level
         with tabs[5]:
-            st.image("pics/EDAs/Distribution/ABV.png", caption="Alcohol Level", use_column_width=True)
+            st.image("pics/EDAs/Distribution/ABV.png", caption="Alcohol Level", use_container_width=True)
             st.markdown("Conclusion : Alcohol level of wine mostly lies between 10 to 20 percent ")
 
         # Rating
         with tabs[6]:
-            st.image("pics/EDAs/Distribution/Rating.png", caption="Rating", use_column_width=True)
+            st.image("pics/EDAs/Distribution/Rating.png", caption="Rating", use_container_width=True)
             st.markdown("Most of the rating lies between 3 to 4")
 
         
@@ -350,7 +350,7 @@ elif options == "EDA":
 
         # Type of wine
         with tabs[0]:
-           st.image("pics/EDAs/Box_Plot/Type.png", caption="Type of wine", use_column_width=True)
+           st.image("pics/EDAs/Box_Plot/Type.png", caption="Type of wine", use_container_width=True)
            st.markdown("""The boxplot shows the distribution of ratings for different wine types. 
                        Most wine types have a median rating between 3.5 and 4.0, indicating generally high ratings. 
                        The variability in ratings is similar for most types, but White and Rosé wines show slightly more variation. 
@@ -359,7 +359,7 @@ elif options == "EDA":
 
         # Country of Origin
         with tabs[1]:
-            st.image("pics/EDAs/Box_Plot/Country.png", caption="Country of Origin", use_column_width=True)
+            st.image("pics/EDAs/Box_Plot/Country.png", caption="Country of Origin", use_container_width=True)
             st.markdown("""The boxplot shows the distribution of wine ratings by country. 
                         Most countries have median ratings between 3.5 and 4.0, indicating consistently good-quality wines across regions. 
                         Countries like Portugal, France, and New Zealand show higher medians and relatively narrower interquartile ranges, 
@@ -370,7 +370,7 @@ elif options == "EDA":
 
         # Region of Origin
         with tabs[2]:
-            st.image("pics/EDAs/Box_Plot/RegionName.png", caption="Region of Origin", use_column_width=True)
+            st.image("pics/EDAs/Box_Plot/RegionName.png", caption="Region of Origin", use_container_width=True)
             st.markdown("""The boxplot shows wine ratings across different regions. Regions like Vale dos Vinhedos and Sauternes 
                         have high median ratings and relatively narrow interquartile ranges, indicating consistent and high-quality wines. 
                         In contrast, regions like Serra Gaúcha and Langhe exhibit wider ranges and lower medians, suggesting greater variability 
@@ -380,7 +380,7 @@ elif options == "EDA":
         
         # Acidity Level
         with tabs[3]:
-            st.image("pics/EDAs/Box_Plot/Acidity.png", caption="Acidity Level", use_column_width=True)
+            st.image("pics/EDAs/Box_Plot/Acidity.png", caption="Acidity Level", use_container_width=True)
             st.markdown(""" The boxplot illustrates wine ratings across different acidity levels. 
                         Wines with medium and high acidity tend to receive higher ratings compared to those with low acidity. 
                         The variability in ratings is similar across all acidity levels, indicating consistent quality within each
@@ -390,7 +390,7 @@ elif options == "EDA":
 
         # Code
         with tabs[4]:
-            st.image("pics/EDAs/Box_Plot/Code.png", caption="Code", use_column_width=True)
+            st.image("pics/EDAs/Box_Plot/Code.png", caption="Code", use_container_width=True)
 
 
         # Streamlit app
@@ -467,17 +467,17 @@ elif options == "Feature Engineering":
     )
     # User Rating
     st.markdown("""#### User Rating Distribution:""")
-    st.image("pics/Feature_Engineering/User_Rating.png", caption="User Rating", use_column_width=True)
+    st.image("pics/Feature_Engineering/User_Rating.png", caption="User Rating", use_container_width=True)
     st.markdown("""Different users have diverse taste preferences when it comes to wine, making it essential to adjust and scale ratings based on individual user preferences. 
                 This approach ensures that the ratings reflect a more personalized and accurate representation of each user's unique palate. """)
     
     # Word Cloud
     st.markdown("""#### Word Cloud:""")
     st.markdown("""##### Grapes:""")
-    st.image("pics/Feature_Engineering/Word_Cloud_Grapes.png", caption="Word Cloud Grapes", use_column_width=True)
+    st.image("pics/Feature_Engineering/Word_Cloud_Grapes.png", caption="Word Cloud Grapes", use_container_width=True)
     st.markdown("""Grapes are the fundamental ingredient in wine production, making it crucial to analyze their characteristics for providing accurate wine recommendations.""")
     st.markdown("""##### Food:""")
-    st.image("pics/Feature_Engineering/Word_Cloud_Harmonize.png", caption="Word Cloud Food", use_column_width=True)
+    st.image("pics/Feature_Engineering/Word_Cloud_Harmonize.png", caption="Word Cloud Food", use_container_width=True)
     st.markdown("""Wine is often enjoyed alongside food, and selecting the right wine to complement a specific dish is essential for enhancing the overall dining experience.""")
 
     # Engineered Feature
@@ -497,8 +497,8 @@ elif options == "Feature Engineering":
 
     # PCA
     st.markdown("""#### PCA:""")
-    st.image("pics/Feature_Engineering/Explained_Variance_vs_Components.png", caption="Explained Variance vs Components", use_column_width=True)
-    st.image("pics/Feature_Engineering/Scree_Plot.png", caption="Scree Plot", use_column_width=True)
+    st.image("pics/Feature_Engineering/Explained_Variance_vs_Components.png", caption="Explained Variance vs Components", use_container_width=True)
+    st.image("pics/Feature_Engineering/Scree_Plot.png", caption="Scree Plot", use_container_width=True)
     st.markdown("""Number of principal component considered: 70 """)
 
     # Modeling
@@ -514,7 +514,7 @@ elif options == "Modeling":
     
     # Selecting no of clusters
     st.markdown("""#### Selecting no of clusters:""")
-    st.image("pics/Model/Elbow.png", caption="Elbow Plot", use_column_width=True)
+    st.image("pics/Model/Elbow.png", caption="Elbow Plot", use_container_width=True)
     st.markdown("""Number of clusters we are working with is 4 """)
 
     # Models Applied
@@ -525,11 +525,11 @@ elif options == "Modeling":
 
     st.markdown("""##### Silhouette Scores Comparison""")
     st.write("This bar plot compares the Silhouette Scores for different clustering models.")
-    st.image("pics/Model/silhoutte_Score.png", caption="Silhoutte_Score Plot", use_column_width=True)
+    st.image("pics/Model/silhoutte_Score.png", caption="Silhoutte_Score Plot", use_container_width=True)
 
     st.markdown("""##### DB Index Comparison""")
     st.write("This bar plot compares the DB Index for different clustering models.")
-    st.image("pics/Model/DB Index.png", caption="DB Index Plot", use_column_width=True)
+    st.image("pics/Model/DB Index.png", caption="DB Index Plot", use_container_width=True)
 
     # Selection
     st.markdown("""
