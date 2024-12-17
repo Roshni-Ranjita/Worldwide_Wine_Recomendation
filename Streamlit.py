@@ -545,6 +545,39 @@ elif options == "Modeling":
     3. Lower computational cost compared to KNN, making it efficient for larger datasets.
     """)
 
+    # Selection
+    st.markdown("""
+         ### Kmeans Performance:
+    #####Correspondence Analysis
+    """)
+    st.image("pics/Model/Corrospondence Analysis.png", caption="Corrospondence Analysis", use_container_width=True)
+    st.markdown("""
+         In the given plot, Correspondence Analysis effectively separates the data into four distinct clusters, 
+                demonstrating the variables' strong discriminative power to identify meaningful groupings. 
+                The green and yellow clusters appear compact, indicating that the data points within these 
+                groups are closely related and exhibit similar features. In contrast, the purple cluster 
+                is more dispersed, suggesting greater internal variation among its points. The blue cluster, 
+                concentrated near the center, indicates moderate variation and a closer relationship to the dataset's 
+                central tendencies. Overall, the plot visually captures the underlying patterns and associations within 
+                the data, highlighting both the similarities and differences across the identified clusters.
+    """)
+
+    st.markdown("##### T-SNE Analysis")
+    st.image("pics/Model/T-SNE.png", caption="T-SNE Analysis", use_container_width=True)
+    st.markdown("""
+         The t-SNE Visualization plot displays the distribution of data points across two components, 
+                revealing four distinct clusters. The clusters, differentiated by color,
+                suggest that the data has been effectively grouped based on underlying similarities. 
+                - The purple cluster is positioned in the lower-left region and appears compact, indicating closely related data points. 
+                - The blue cluster, located in the upper region, shows moderate spread, reflecting a slight variation within the group. 
+                - The green cluster is concentrated on the right side and displays a well-defined structure. 
+                - The yellow cluster, positioned in the lower-right region, also appears compact with a clear separation 
+                from the other groups.
+                
+         Overall, the plot highlights strong clustering patterns, indicating that the variables 
+                used for clustering provide meaningful distinctions among the data points.
+    """)
+
 
     # Recomendation
 elif options == "Recomendation":
