@@ -1,5 +1,7 @@
 # Worldwide_Wine_Recomendation
 
+## Phase 1
+
 ### Link to streamlit app:
 https://worldwidewinerecomendation.streamlit.app/
 
@@ -52,7 +54,9 @@ The app eliminates the challenge of selecting suitable wine from a vast variety 
 
 ---
 
-### Phase 2: Reinforcement Learning Integration
+## Phase 2
+
+### Reinforcement Learning Integration
 
 In Phase 2, the app is improved by adding a reinforcement learning–based feedback layer. Instead of relying only on the fixed K-Means clustering model, the system learns from user choices over time.
 
