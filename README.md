@@ -49,3 +49,34 @@ The app eliminates the challenge of selecting suitable wine from a vast variety 
 - Interactive interface: Built using Streamlit, it provides a simple and user-friendly platform.
 - Visualizations: Graphs and charts (e.g., Plotly, Seaborn) illustrate wine trends, regions, or price points.
 - Recommendations: Displayed as an easy-to-read list or dynamic cards to facilitate quick selection.
+
+---
+
+### Phase 2: Reinforcement Learning Integration
+
+In Phase 2, the app is improved by adding a reinforcement learning–based feedback layer. Instead of relying only on the fixed K-Means clustering model, the system learns from user choices over time.
+
+After the app recommends wines, users can select the recommendation they prefer most or choose **“Other / None of these”** if none of the recommendations are suitable. Each user choice is treated as a reward signal:
+
+- Preferred recommendation: `+1 reward`
+- None of these: `-1 reward`
+
+The feedback is stored in `user_feedback.csv` and used to re-rank future recommendations. Wines that users repeatedly select receive higher priority, while recommendations that users reject are ranked lower.
+
+This allows the recommendation system to become more adaptive and user-centered over time.
+
+---
+
+### How Phase 2 Works
+
+1. The user selects a wine from the app.
+2. The K-Means model generates similar wine recommendations.
+3. The user gives feedback by choosing the best recommendation or selecting **“Other / None of these.”**
+4. The feedback is saved as a reward.
+5. Future recommendations are re-ranked using past user feedback.
+
+---
+
+### Phase 2 Benefit
+
+The original model recommends wines based on similarity and clustering. The Phase 2 reinforcement learning layer improves this by learning from real user behavior. This makes the app more personalized, interactive, and responsive to user preferences.
