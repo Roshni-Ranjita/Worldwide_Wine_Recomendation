@@ -1,6 +1,6 @@
 # Worldwide_Wine_Recomendation
 
-## Phase 1
+
 
 ### Link to streamlit app:
 https://worldwidewinerecomendation.streamlit.app/
@@ -38,6 +38,7 @@ The app analyzes user preferences and clusters wines based on their characterist
 The app eliminates the challenge of selecting suitable wine from a vast variety by providing curated recommendations based on user input and clustering algorithms. This helps both individual buyers and sellers streamline their decision-making.
 
 ---
+## Phase 1
 
 ### How does your solution work?
 - Users input their preferences or interact with the app.
